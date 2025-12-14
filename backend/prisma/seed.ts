@@ -4,6 +4,7 @@ const prisma = new PrismaClient();
 
 async function main() {
   // Create Companies
+  
   const company1 = await prisma.company.create({
     data: {
       name: 'LTI',

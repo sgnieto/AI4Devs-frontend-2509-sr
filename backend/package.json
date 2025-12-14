@@ -10,6 +10,8 @@
         "test": "jest",
         "prisma:init": "npx prisma init",
         "prisma:generate": "npx prisma generate",
+        "prisma:migrate": "npx prisma migrate dev",
+        "prisma:seed": "npx prisma db seed",
         "start:prod": "npm run build && npm start"
     },
     "keywords": [],
@@ -39,6 +41,10 @@
         "ts-jest": "^29.1.2",
         "ts-node": "^9.1.1",
         "ts-node-dev": "^1.1.6",
+        "tsx": "^4.21.0",
         "typescript": "^4.9.5"
+    },
+    "prisma": {
+        "seed": "npx tsx prisma/seed.ts"
     }
 }

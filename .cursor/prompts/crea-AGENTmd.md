@@ -1,0 +1,1 @@
+Create the AGENT.md file in frontend with all the related and important information according the project that need an agent to work with the frontend of the project, take advantage of the information generate in docs/ai-specs folder
